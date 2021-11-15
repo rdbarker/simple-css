@@ -1,0 +1,30 @@
+body {
+  background-color: rgb(39, 39, 39);
+  font-size: 32px;
+}
+.row > * {
+  background-color: deepskyblue;
+  min-height: 1rem;
+  border: 2px solid rgb(255, 0, 21);
+}
+.column > * {
+  background-color: rgb(177, 95, 95);
+  min-height: 1rem;
+  border: 2px solid rgb(4, 4, 228);
+}
+footer {
+  margin-top: auto;
+}
+.columnhelper {
+  height: 480px;
+}
+
+.row.center {
+  margin: 0 auto;
+}
+.column.center {
+  margin: auto 0;
+}
+.end {
+  justify-content: flex-end;
+}
