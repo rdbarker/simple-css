@@ -72,3 +72,5 @@ body {
   --span-width: calc(100% / var(--grid-size) * 12);
   flex: 12 0 var(--span-width);
 }
+
+@media (max-width: );

@@ -19,12 +19,20 @@ footer {
   height: 480px;
 }
 
-.row.center {
-  margin: 0 auto;
-}
+.row.center,
 .column.center {
-  margin: auto 0;
+  justify-content: center;
 }
+
+.row.center *,
+.column.center * {
+  flex-grow: 0;
+}
+
 .end {
   justify-content: flex-end;
+}
+
+:root {
+  --grid-size: 2;
 }
